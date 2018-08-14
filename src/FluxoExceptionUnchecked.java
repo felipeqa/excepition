@@ -1,4 +1,4 @@
-public class Fluxo {
+public class FluxoExceptionUnchecked {
 
     public static void main(String[] args) {
         System.out.println("Ini do main");
@@ -24,10 +24,10 @@ public class Fluxo {
     }
 
     private static void metodo2() {
-        System.out.println("Ini do metodo2");
+        System.out.println("Ini do metodo2");{
+            //Exemplo de exceção que NÃO é checada pelo compilador
+            throw new MyExceptionUncheked("Exception UNCHECKED");
+        }
 
-        throw new MyExceptionUncheked("Algo deu errado aqui! vou lançar minha exceção!");
-
-        //System.out.println("Fim do metodo2");
     }
 }

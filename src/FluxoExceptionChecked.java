@@ -1,10 +1,10 @@
-public class Fluxo {
+public class FluxoExceptionChecked {
 
     public static void main(String[] args) {
         System.out.println("Ini do main");
         try {
             metodo1();
-        }catch (ArithmeticException | NullPointerException | MyExceptionUncheked ex){
+        }catch (ArithmeticException | NullPointerException | MyExceptionChecked ex){
 
             String msg = ex.getMessage();
             System.out.println("Exception " + msg);
@@ -13,7 +13,8 @@ public class Fluxo {
         System.out.println("Fim do main");
     }
 
-    private static void metodo1() {
+    // Add a exceção a assinatura do método
+    private static void metodo1() throws MyExceptionChecked {
         System.out.println("Ini do metodo1");
 //        try {
             metodo2();
@@ -23,11 +24,12 @@ public class Fluxo {
         System.out.println("Fim do metodo1");
     }
 
-    private static void metodo2() {
-        System.out.println("Ini do metodo2");
+    // Add a exceção a assinatura do método
+    private static void metodo2() throws MyExceptionChecked {
+        System.out.println("Ini do metodo2");{
+            //Exemplo de exceção que é checada pelo compilador
+            throw new MyExceptionChecked("Exception CHECKED");
+        }
 
-        throw new MyExceptionUncheked("Algo deu errado aqui! vou lançar minha exceção!");
-
-        //System.out.println("Fim do metodo2");
     }
 }
