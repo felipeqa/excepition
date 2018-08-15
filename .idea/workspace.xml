@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d33d085c-c17d-446a-b6f2-ae171f24e1e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-pilha/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-pilha/Conta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-pilha/FluxoComTratamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-pilha/FluxoComTratamento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-pilha/MyExceptionChecked.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-pilha/MyExceptionChecked.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-pilha/MyExceptionUncheked.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-pilha/MyExceptionUncheked.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FluxoComTratamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FluxoComTratamento.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,23 +24,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="25" />
+          <entry key="java" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="25" />
+          <entry key="JAVA" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="23" />
-          <entry key="java" value="809" />
+          <entry key="java" value="959" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="809" />
+          <entry key="JAVA" value="959" />
           <entry key="PLAIN_TEXT" value="23" />
         </counts>
       </usages-collector>
@@ -63,11 +57,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FluxoComTratamento.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="-27">
               <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestaContaExcecaoUncheckedUsandoThrows.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Conta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -96,9 +108,10 @@
         <option value="$PROJECT_DIR$/src/MyExceptionUncheked.java" />
         <option value="$PROJECT_DIR$/src/TestaContaExcecaoChecked.java" />
         <option value="$PROJECT_DIR$/src/TestaContaExcecaoCheckedUsandoTryCatch.java" />
-        <option value="$PROJECT_DIR$/src/Conta.java" />
         <option value="$PROJECT_DIR$/src/TestaContaExcecaoCheckedUsandoThrows.java" />
         <option value="$PROJECT_DIR$/src/FluxoComTratamento.java" />
+        <option value="$PROJECT_DIR$/src/TestaContaExcecaoUncheckedUsandoThrows.java" />
+        <option value="$PROJECT_DIR$/src/Conta.java" />
       </list>
     </option>
   </component>
@@ -138,7 +151,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534296356301" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534297110381" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -160,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FluxoComTratamento">
+  <component name="RunManager" selected="Application.TestaContaExcecaoUncheckedUsandoThrows">
     <configuration name="FluxoComTratamento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FluxoComTratamento" />
       <module name="java-pilha" />
@@ -170,13 +183,6 @@
     </configuration>
     <configuration name="FluxoExceptionChecked" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FluxoExceptionChecked" />
-      <module name="java-pilha" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FluxoExceptionUnchecked" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FluxoExceptionUnchecked" />
       <module name="java-pilha" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -196,20 +202,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestaContaExcecaoUncheckedUsandoThrows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestaContaExcecaoUncheckedUsandoThrows" />
+      <module name="java-pilha" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.FluxoExceptionUnchecked" />
       <item itemvalue="Application.FluxoExceptionChecked" />
       <item itemvalue="Application.TestaContaExcecaoCheckedUsandoTryCatch" />
       <item itemvalue="Application.TestaContaExcecaoCheckedUsandoThrows" />
       <item itemvalue="Application.FluxoComTratamento" />
+      <item itemvalue="Application.TestaContaExcecaoUncheckedUsandoThrows" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestaContaExcecaoUncheckedUsandoThrows" />
         <item itemvalue="Application.FluxoComTratamento" />
         <item itemvalue="Application.FluxoExceptionChecked" />
         <item itemvalue="Application.TestaContaExcecaoCheckedUsandoThrows" />
         <item itemvalue="Application.TestaContaExcecaoCheckedUsandoTryCatch" />
-        <item itemvalue="Application.FluxoExceptionUnchecked" />
       </list>
     </recent_temporary>
   </component>
@@ -235,19 +248,19 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49895614" visible="true" weight="0.25334957" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49895614" visible="true" weight="0.25334957" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.498985" weight="0.33054394" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49857897" weight="0.33054394" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.499797" weight="0.3294979" />
+      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.499391" weight="0.3294979" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.499797" weight="0.39979124" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.500203" side_tool="true" visible="true" weight="0.33054394" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.50060904" side_tool="true" visible="true" weight="0.33054394" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -329,13 +342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Conta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TestaContaExcecaoCheckedUsandoThrows.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -359,8 +365,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FluxoComTratamento.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="-27">
           <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestaContaExcecaoUncheckedUsandoThrows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Conta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
