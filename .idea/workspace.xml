@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d33d085c-c17d-446a-b6f2-ae171f24e1e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-pilha/Conexao.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Conexao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conexao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestaConexao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestaConexao.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,58 +16,79 @@
     <session id="156525737">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="29" />
+          <entry key="java" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="29" />
+          <entry key="JAVA" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="23" />
-          <entry key="java" value="1412" />
+          <entry key="java" value="1656" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1412" />
+          <entry key="JAVA" value="1656" />
           <entry key="PLAIN_TEXT" value="23" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Conexao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="60">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/OutraConexao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding>
-                <element signature="e#369#370#0" expanded="true" />
-                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#58#59#0" expanded="true" />
+                <element signature="e#111#112#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestaConexao.java">
+        <entry file="file://$PROJECT_DIR$/src/TestaOutraConexao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+              <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TestaConexao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="9" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="8" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -102,8 +121,10 @@
         <option value="$PROJECT_DIR$/src/FluxoComTratamento.java" />
         <option value="$PROJECT_DIR$/src/TestaContaExcecaoUncheckedUsandoThrows.java" />
         <option value="$PROJECT_DIR$/src/Conta.java" />
-        <option value="$PROJECT_DIR$/src/TestaConexao.java" />
+        <option value="$PROJECT_DIR$/src/OutraConexao.java" />
+        <option value="$PROJECT_DIR$/src/TestaOutraConexao.java" />
         <option value="$PROJECT_DIR$/src/Conexao.java" />
+        <option value="$PROJECT_DIR$/src/TestaConexao.java" />
       </list>
     </option>
   </component>
@@ -143,7 +164,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534471507085" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534473253537" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -187,13 +208,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestaContaExcecaoCheckedUsandoThrows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestaContaExcecaoCheckedUsandoThrows" />
-      <module name="java-pilha" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestaContaExcecaoUncheckedUsandoThrows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestaContaExcecaoUncheckedUsandoThrows" />
       <module name="java-pilha" />
@@ -201,20 +215,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestaOutraConexao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestaOutraConexao" />
+      <module name="java-pilha" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.FluxoExceptionChecked" />
-      <item itemvalue="Application.TestaContaExcecaoCheckedUsandoThrows" />
       <item itemvalue="Application.FluxoComTratamento" />
       <item itemvalue="Application.TestaContaExcecaoUncheckedUsandoThrows" />
       <item itemvalue="Application.TestaConexao" />
+      <item itemvalue="Application.TestaOutraConexao" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TestaConexao" />
+        <item itemvalue="Application.TestaOutraConexao" />
         <item itemvalue="Application.TestaContaExcecaoUncheckedUsandoThrows" />
         <item itemvalue="Application.FluxoComTratamento" />
         <item itemvalue="Application.FluxoExceptionChecked" />
-        <item itemvalue="Application.TestaContaExcecaoCheckedUsandoThrows" />
       </list>
     </recent_temporary>
   </component>
@@ -240,10 +261,10 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49895614" visible="true" weight="0.25740966" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49895614" visible="true" weight="0.2594397" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49776694" weight="0.33054394" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49695495" visible="true" weight="0.33054394" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.49776694" weight="0.3294979" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -252,7 +273,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.502233" side_tool="true" visible="true" weight="0.33054394" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.5030451" side_tool="true" visible="true" weight="0.33054394" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -344,13 +365,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Conta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TestaContaExcecaoUncheckedUsandoThrows.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -372,21 +386,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestaConexao.java">
+    <entry file="file://$PROJECT_DIR$/src/Conta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OutraConexao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="e#58#59#0" expanded="true" />
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestaOutraConexao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Conexao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding>
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestaConexao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="8" selection-end-column="9" />
         </state>
       </provider>
     </entry>
