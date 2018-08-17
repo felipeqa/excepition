@@ -1,14 +1,32 @@
 public class TestaConexao {
 
     public static void main(String[] args) {
-        Conexao con = new Conexao();
 
-        try{
-            con.leDados();
-        }catch(IllegalStateException ex){
-            System.out.println("Deu ruim na conexão");;
-        }finally {
-            con.fecha();
+        try(Conexao conexao = new Conexao()){
+            conexao.leDados();
+        } catch(IllegalStateException ex){
+            System.out.println("Deu erro na conexão");
         }
+
+
+
+
+
+
+        // código macarronico
+//        Conexao con = null;
+//
+//        try{
+//            con = new Conexao();
+//            con.leDados();
+//        }catch(IllegalStateException ex){
+//            System.out.println("Deu ruim na conexão");
+//        }finally {
+//            System.out.println("Finally");
+//
+//            if(con != null){
+//                con.close();
+//            }
+//        }
     }
 }
