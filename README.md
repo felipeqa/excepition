@@ -1,1 +1,1 @@
-# excepition-java
+# exception-java
